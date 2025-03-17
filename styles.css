@@ -3,8 +3,8 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
-  /* font-family: Roboto, sans-serif; */
   font-family: Roboto, sans-serif;
+  justify-content: space-between;
 }
 
 a {
@@ -21,9 +21,20 @@ ul {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 60px;
+  height: 100px;
   background-color: #1F2937;
   padding: 16px 150px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  height: 100px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 18px;
+  justify-content: center;
   align-items: center;
 }
 
