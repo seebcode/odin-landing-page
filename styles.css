@@ -54,3 +54,22 @@ ul {
 .links a {
   color: #E5E7EB;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.content-heading, .content-info, .content-quote, .content-sign-up {
+  flex: 1;
+}
+
+.content-heading {
+  background-color: #1F2937;
+}
+
+.content-quote {
+  background-color: #E5E7EB;
+}
