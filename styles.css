@@ -64,12 +64,52 @@ ul {
 
 .content-heading, .content-info, .content-quote, .content-sign-up {
   flex: 1;
+  padding: 0 150px;
 }
 
 .content-heading {
   background-color: #1F2937;
+  align-content: center;
 }
 
 .content-quote {
   background-color: #E5E7EB;
 }
+
+.title-and-image {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.heading-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.button {
+  width: fit-content;
+  background-color: #3882F6;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: none;
+  margin: 0;
+  overflow: visible;
+  font-size: 18px;
+}
+
