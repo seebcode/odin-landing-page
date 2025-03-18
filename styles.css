@@ -141,7 +141,7 @@ ul {
   height: 130px;
   width: 130px;
   border: solid #3882F6;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 .info-card-text {
@@ -216,3 +216,28 @@ ul {
   border-width: 3px;
 }
 
+.logo img {
+  padding-top: 4px;
+}
+
+.info-card-image img {
+  border-radius: 4px;
+  width: 130px;
+}
+
+#unit-01-card {
+ border: solid purple;
+}
+
+#unit-02-card {
+  border: solid red;
+}
+
+#unit-03-card {
+  display: flex;
+  border: solid black;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
