@@ -105,6 +105,7 @@ ul {
   width: fit-content;
   background-color: #3882F6;
   color: white;
+  font-weight: 600;
   padding: 8px 24px;
   border-radius: 8px;
   border: none;
@@ -172,3 +173,46 @@ ul {
   font-size: large;
   padding-right: 40px;
 }
+
+.content-sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calltoaction-container {
+  height: 140px;
+  width: 100%;
+  background-color: #3882F6;
+  border-radius: 12px;
+}
+
+.calltoaction-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 75px;
+}
+
+.calltoaction-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;;
+}
+
+.calltoaction-title {
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: bold;
+}
+
+.calltoaction-subtext {
+  color: #E5E7EB;
+}
+
+.calltoaction-container .button {
+  border: solid #E5E7EB;
+  border-width: 3px;
+}
+
